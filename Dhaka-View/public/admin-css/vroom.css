@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+   
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 9px 17px 4px rgba(0,0,0,0.75);
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table.room-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.room-list th, table.room-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table.room-list th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+table.room-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.room-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+table.room-list td {
+    color: #555;
+}
+
+table.room-list td:nth-child(4),
+table.room-list td:nth-child(5) {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    table.room-list th, table.room-list td {
+        font-size: 14px;
+    }
+}

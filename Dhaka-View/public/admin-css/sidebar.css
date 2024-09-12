@@ -1,0 +1,62 @@
+.admin-side-logo{
+    color: #ffffff;
+}
+
+
+.sidebarr {
+   
+    width: 250px;
+    background-color: #1a2035;
+    padding: 15px;
+    color: #ecf0f1;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.menu-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #1a2035;
+    border-radius: 5px;
+}
+
+.menu-link:hover {
+    background-color: #1abc9c;
+}
+
+.has-dropdown .dropdown-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.has-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin-bottom: 5px;
+}
+
+.dropdown-menu li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    background-color: #16a085;
+    border-radius: 5px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #1abc9c;
+}

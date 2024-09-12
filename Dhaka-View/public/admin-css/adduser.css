@@ -1,0 +1,61 @@
+/* General Styles */
+
+.form-con {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:7px 9px 17px 4px rgba(0,0,0,0.75);
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form Group */
+.form-grouper{
+    margin-bottom: 15px;
+}
+
+.form-grouper label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-grouper input,
+.form-grouper select,
+.form-grouper textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-grouper input:focus,
+.form-grouper select:focus,
+.form-grouper textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Button Styles */
+.form-grouper button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-grouper button:hover {
+    background-color: #0056b3;
+}
